@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oscarsinuco1.github.io/paste-pdf/sitemap.xml

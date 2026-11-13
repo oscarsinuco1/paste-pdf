@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PDF por Pantalla · Crea un PDF pegando imágenes con Ctrl+V</title>
+  <meta name="description" content="Pega capturas e imágenes del portapapeles con Ctrl+V, reordénalas y exporta un PDF. Gratis, sin registro y 100% en tu navegador: tus imágenes nunca se suben a ningún servidor.">
+  <meta name="keywords" content="crear pdf, imágenes a pdf, pegar capturas pdf, portapapeles, ctrl v, unir imágenes pdf, sin subir archivos">
+  <meta name="theme-color" content="#0d9488">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://oscarsinuco1.github.io/paste-pdf/">
+  <link rel="alternate" hreflang="es" href="https://oscarsinuco1.github.io/paste-pdf/">
+  <link rel="alternate" hreflang="x-default" href="https://oscarsinuco1.github.io/paste-pdf/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PDF por Pantalla">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:url" content="https://oscarsinuco1.github.io/paste-pdf/">
+  <meta property="og:title" content="PDF por Pantalla · Crea un PDF pegando imágenes con Ctrl+V">
+  <meta property="og:description" content="Pega capturas con Ctrl+V, reordena y exporta. Todo en tu navegador, sin subir nada.">
+  <meta property="og:image" content="https://oscarsinuco1.github.io/paste-pdf/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PDF por Pantalla: pega capturas y obtén un PDF">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PDF por Pantalla · Imágenes del portapapeles a PDF">
+  <meta name="twitter:description" content="Pega con Ctrl+V, reordena y exporta. Gratis y privado.">
+  <meta name="twitter:image" content="https://oscarsinuco1.github.io/paste-pdf/og.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+  {"@type":"WebSite","@id":"https://oscarsinuco1.github.io/paste-pdf/#site","url":"https://oscarsinuco1.github.io/paste-pdf/","name":"PDF por Pantalla","inLanguage":"es"},
+  {"@type":"WebApplication","@id":"https://oscarsinuco1.github.io/paste-pdf/#app","url":"https://oscarsinuco1.github.io/paste-pdf/","name":"PDF por Pantalla","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","inLanguage":"es","image":"https://oscarsinuco1.github.io/paste-pdf/og.png","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Crea un PDF pegando imágenes del portapapeles con Ctrl+V, reordénalas y expórtalo, todo en el navegador."},
+  {"@type":"FAQPage","mainEntity":[
+  {"@type":"Question","name":"¿Cómo creo un PDF pegando capturas de pantalla?","acceptedAnswer":{"@type":"Answer","text":"Haz una captura, presiona Ctrl+V en la página y repite con cada imagen. Reordénalas arrastrando y pulsa Exportar PDF."}},
+  {"@type":"Question","name":"¿Mis imágenes se suben a algún servidor?","acceptedAnswer":{"@type":"Answer","text":"No. Todo el proceso ocurre en tu navegador; tus imágenes nunca salen de tu equipo."}},
+  {"@type":"Question","name":"¿Puedo cambiar el orden de las páginas?","acceptedAnswer":{"@type":"Answer","text":"Sí. Arrastra las miniaturas o usa las flechas de cada una antes de exportar."}},
+  {"@type":"Question","name":"¿Es gratis?","acceptedAnswer":{"@type":"Answer","text":"Sí, es gratuito y no requiere registro."}}]}]}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#grid">Saltar al contenido</a>
+  <header class="hero">
+    <div class="brand">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0d9488"/><path d="M9 7h9l5 5v13H9z" fill="#fff"/><path d="M18 7v5h5" fill="#99f6e4"/></svg>
+      <span>PDF por Pantalla</span>
+    </div>
+    <h1>Pega capturas. <em>Obtén un PDF.</em></h1>
+    <p>Presiona <kbd>Ctrl</kbd> + <kbd>V</kbd> tantas veces como quieras, reordena las páginas y exporta. Sin registro y sin subir nada.</p>
+    <ol class="steps" aria-label="Cómo funciona">
+      <li><b><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg></b> Pega con Ctrl+V</li>
+      <li><b><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m21 16-4 4-4-4"/><path d="M17 20V4"/><path d="m3 8 4-4 4 4"/><path d="M7 4v16"/></svg></b> Reordena</li>
+      <li><b><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6"/><path d="m9 15 3 3 3-3"/></svg></b> Exporta</li>
+    </ol>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="Acciones">
+      <div class="group">
+        <button id="pasteBtn" class="btn">
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg>
+          Extraer de mi portapapeles
+        </button>
+        <label class="btn ghost" for="fileInput">
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m17 8-5-5-5 5"/><path d="M12 3v12"/></svg>
+          Añadir archivos
+        </label>
+        <input id="fileInput" type="file" accept="image/*" multiple hidden>
+      </div>
+      <div class="group">
+        <label class="sel">Página
+          <select id="pageMode">
+            <option value="a4">A4 (ajustar imagen)</option>
+            <option value="fit">Tamaño de la imagen</option>
+          </select>
+        </label>
+        <button id="clearBtn" class="btn ghost danger" disabled>
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+          Vaciar
+        </button>
+        <button id="exportBtn" class="btn primary" disabled>
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+          Exportar PDF <span id="count" class="pill">0</span>
+        </button>
+      </div>
+    </section>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+
+    <section id="empty" class="empty">
+      <div class="empty-card">
+        <div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></svg></div>
+        <h2>Pega tu primera imagen</h2>
+        <p>Haz una captura y presiona <kbd>Ctrl</kbd> + <kbd>V</kbd> en cualquier parte de esta página. También puedes arrastrar archivos aquí.</p>
+      </div>
+    </section>
+
+    <ol id="grid" class="grid" aria-label="Páginas del PDF (arrastra para reordenar)"></ol>
+    <section class="info" aria-labelledby="faqT">
+      <h2 id="faqT">Preguntas frecuentes</h2>
+      <h3>¿Cómo creo un PDF pegando capturas de pantalla?</h3>
+      <p>Haz una captura (por ejemplo con <kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>), presiona <kbd>Ctrl</kbd> + <kbd>V</kbd> en esta página y repite con cada imagen. Reordénalas arrastrando y pulsa <strong>Exportar PDF</strong>.</p>
+      <h3>¿Mis imágenes se suben a algún servidor?</h3>
+      <p>No. Todo ocurre en tu navegador; tus imágenes nunca salen de tu equipo.</p>
+      <h3>¿Puedo cambiar el orden de las páginas?</h3>
+      <p>Sí. Arrastra las miniaturas o usa las flechas de cada una antes de exportar.</p>
+      <h3>¿Es gratis?</h3>
+      <p>Sí, es gratuito y no requiere registro.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+    Privado: todo ocurre en tu navegador, tus imágenes nunca salen de tu equipo.
+  </footer>
+
+  <dialog id="dlg" aria-labelledby="dlgT">
+    <form method="dialog" id="dlgForm">
+      <h2 id="dlgT">Portapapeles</h2>
+      <p id="dlgMsg"></p>
+      <label class="sel">¿Cuántas quieres? (las últimas)
+        <input id="dlgN" type="number" min="1" value="1" inputmode="numeric">
+      </label>
+      <div class="group end">
+        <button type="button" id="dlgCancel" class="btn ghost">Cancelar</button>
+        <button type="submit" class="btn primary">Extraer</button>
+      </div>
+    </form>
+  </dialog>
+  <div id="drop" class="dropzone" hidden>Suelta las imágenes para añadirlas</div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
